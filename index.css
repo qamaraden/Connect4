@@ -1,0 +1,247 @@
+body{
+  background: black;
+  width: 600px;
+  position: absolute;
+  left: 0px;
+  height:0px
+  border-color: white;
+  border-width: thick;
+}
+.borders{
+  background-color: transparent;
+  border-width: 20px;
+  border-color: white;
+  height: 500px;
+  width: 550px;
+  top: 0px;
+  position: relative;
+  left: 5px;
+}
+
+h1{
+  text-align:center;
+  margin-bottom:5px;
+}
+
+p.info{
+  text-align:center;
+  width:400px;
+  margin:0 auto;
+  font-size:12px;
+  font-weight:bold;
+  color:#666;
+  margin-bottom:20px;
+}
+
+#game-base{
+  width:640px;
+  margin:0 auto;
+  padding-top:60px;
+
+  /* left: 500px; */
+  position: inherit;
+  border-color: white;
+  border-width: medium;
+}
+
+#game-table{
+  width:434px;
+  height:374px;
+  margin:0 auto;
+  position:absolute;
+  left: 60px;
+  top: 170px;
+  position: absolute;
+  border-radius: 20px;
+  border-width: 50px;
+  border-color: white;
+  background-image: url("Connect4Board.png");
+
+}
+
+.disc{
+  position:absolute;
+  z-index:-1;
+  top:-55px;
+  left:14px;
+  width:46px;
+  height:46px;
+  border-radius:46px;
+  transition:all .3s;
+}
+
+.disc.red{
+
+  background-image: url("ron2.png")
+}
+
+.disc.yellow{
+  /* background:#ffeb79; */
+  background-image: url("bananas.png");
+}
+
+.startPage{
+  left: 0px;
+  position: relative;
+  top: 2px
+}
+.instructions{
+  left: 0px;
+  position: absolute;
+  height: 700px;
+  width: 500px;
+}
+
+.button4 {
+  position: absolute;
+    width: 170px;
+    height: 40px;
+    left: 220px;
+    top: 535px;
+    background-color: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+
+a{ color: inherit;
+text-decoration: none;
+}
+
+
+.result {
+  display: inline-block;
+  color: white;
+  left: 400px;
+
+
+}
+.move {
+  left: 250px
+  top: 0px;
+  height: 550px;
+}
+.container2{
+  width: 530px;
+  height: 700px;
+  margin: 10px auto;
+  background-image: url("start.png");
+  position: relative;
+  left: 0px;
+	color: #F1F0F4;
+	text-align: center;
+  text-shadow: 5px;
+
+}
+.container3{
+  width: 550px;
+  height: 700px;
+  margin: 10px auto;
+  background-image: url("instructions.png");
+  position: relative;
+  left: 20px;
+	color: #F1F0F4;
+	text-align: center;
+  text-shadow: 5px;
+}
+
+.button5{
+	/* width: 150px;
+	height: 40px;
+	font-size: 15px;
+	font-style: normal;
+  left: 240px;
+  color: transparent;
+  position: absolute;
+  top: 610px;
+  background-color: transparent;
+  border-color: transparent; */
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #E3931A;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  left: 500px;
+
+}
+.button5:hover {background-color: #A87220}
+
+.button5:active {
+  background-color: #E3931A;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  decoration: none;
+}
+.button1{
+	/* width: 180px;
+	height: 45px;
+	font-size: 20px;
+  color: white;
+  background-color: transparent;
+  border-color: transparent; */
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #E3931A;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.button1:hover {background-color: #A87220}
+
+.button1:active {
+  background-color: #E3931A;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  decoration: none;
+}
+.button2{
+	/* width: 180px;
+	height: 45px;
+	font-size: 20px;
+  color: white;
+  background-color: transparent;
+  border-color: transparent;
+  position: absolute;
+  left: 190px; */
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #E3931A;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+
+
+}
+.button2:hover {background-color: #A87220}
+
+.button2:active {
+  background-color: #E3931A;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  decoration: none;
+}
+
+.button3{
+	width: 180px;
+	height:170px;
+	font-size: 20px;
+  color: white;
+  background-color: transparent;
+  border-color: transparent;
+  position: absolute;
+  left: 225px;
+  top: 230px
+
+}
